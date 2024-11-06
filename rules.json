@@ -2,7 +2,10 @@
   {
     "id": 1,
     "priority": 1,
-    "action": { "type": "block" },
+    "action": {
+      "type": "redirect",
+      "redirect": { "url": "https://www.linkedin.com" }
+    },
     "condition": {
       "urlFilter": "youtube.com",
       "resourceTypes": ["main_frame"]
